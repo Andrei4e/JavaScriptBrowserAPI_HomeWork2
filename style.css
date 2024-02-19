@@ -1,0 +1,30 @@
+img { 
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider {
+    display: block;
+    flex-direction: row;
+    margin-top: 10px;
+    text-align: center;
+}
+.nav {
+    border: 1px solid gainsboro;
+    padding: 2px 5px;
+}
+.cur {
+    font-size: 20px;
+}
+.nav:hover {
+    cursor: pointer;
+    border: 1px solid blue;
+}
+.hidden {
+    display: none;
+}
+.display {
+    display: block;
+}
